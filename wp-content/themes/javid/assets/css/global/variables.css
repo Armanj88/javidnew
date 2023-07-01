@@ -1,0 +1,23 @@
+:root {
+    --dir: left;
+    --default-link-color: black;
+    --opposite-dir: right;
+    --flex-direction: row;
+    --flex-direction-opposite: row-reverse;
+    --border-radius: 7px;
+    --box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    --primary-color: #62D59C;
+    --secondary-color: #00C52E;
+
+    /*header variables*/
+    --header-background-color: #fff;
+    --header-box-shadow: 3px 0 10px rgba(0, 0, 0, 0.3);
+    --header-max-logo-width: 200px;
+
+    /*footer variables*/
+    --footer-top-border-width: 2px;
+    --footer-top-border-color: rgba(0, 0, 0, 0.5);
+
+    /*singular variables*/
+    --thumbnail-float: left;
+}

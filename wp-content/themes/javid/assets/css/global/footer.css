@@ -1,0 +1,84 @@
+.site-footer {
+    margin-top: 2rem;
+    padding: 2rem;
+    border-top: var(--footer-top-border-width) solid var(--footer-top-border-color);
+}
+
+
+/*footer menu*/
+.footer-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-menu ul li ul {
+    display: none;
+}
+
+.footer-menu ul li {
+    float: var(--dir);
+    border-radius: 6px;
+    margin: 0 0.7rem;
+}
+.footer-menu ul li a {
+    font-weight: 100;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+.footer-menu ul li:hover {
+    background: #eeeeee;
+}
+
+/*footer widgets*/
+.widget .widget-title {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+/*lists*/
+.widget ul {
+    line-height: 1.5;
+}
+.widget ul li ul {
+    display: none;
+}
+.widget ul li {
+    padding: 0.5rem 1rem;
+    margin: 7px 0;
+    background: #d3d3d3bf;
+    font-weight: 400;
+}
+
+/*forms*/
+.widget form div {
+    flex-wrap: wrap;
+}
+.widget form input,
+.widget form button {
+    border-radius: var(--border-radius);
+    display: block;
+    margin: 7px auto;
+}
+
+.widget form input {
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+.widget form input::placeholder {
+    font-size: 13px;
+    text-align: center;
+}
+
+.widget form button {
+    width: 50%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}

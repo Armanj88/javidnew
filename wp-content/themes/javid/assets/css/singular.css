@@ -1,0 +1,110 @@
+.post-wrap .entry-image {
+    float: var(--thumbnail-float);
+    width: 50%;
+    margin-right: 20px;
+}
+
+.post-wrap .entry-image img {
+    border-radius: var(--border-radius);
+}
+
+.post-wrap {
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+    padding: 1rem;
+}
+.page-title {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.post-wrap .entry-content {
+    line-height: 1.8;
+}
+
+/*comments*/
+.comments-form {
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+    background: white;
+    padding: 2rem;
+    margin-top: 1rem;
+    width:100%;
+}
+
+#comments {
+    width:100%;
+}
+
+.comments-title {
+    font-size: 20px;
+}
+.comments-form input:not(input[type=checkbox]),
+.comments-form textarea {
+    display: block;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 10px;
+    border-radius: var(--border-radius);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+.comments-form input[type=submit] {
+    cursor: pointer;
+    background-color: var(--secondary-color);
+    font-weight: 400;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.comments-form textarea {
+    resize: vertical;
+    width: 100%;
+}
+
+.comments-form input:not(input[type=submit]):not(input[type=checkbox]) {
+    width:100%;
+}
+
+.comments-form .comment-form-author {
+    width: 100%;
+}
+.comments-form .comment-form-email,
+.comments-form .comment-form-url {
+    float: var(--dir);
+    width: calc(50% - 15px);
+    margin-bottom: 1rem;
+}
+.comments-form .comment-form-email {
+    margin-right: 15px;
+}
+.comments-form .comment-form-url {
+    margin-left: 15px;
+}
+
+.comments-form .comment-form-cookies-consent {
+    margin-bottom: 1.5rem;
+}
+.comment-list li img {
+    max-width: 200px;
+}
+
+/*next prev posts link*/
+.next-prev-posts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.next-prev-posts a {
+    font-size: 17px;
+}
+
+.next-prev-posts div {
+    padding: 2rem;
+    background: var(--secondary-color-rgb-40);
+    text-align:center;
+    border-radius: var(--border-radius);
+}

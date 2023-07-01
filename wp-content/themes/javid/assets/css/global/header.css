@@ -1,0 +1,117 @@
+/*
+ Menu
+ */
+.site-header {
+    background: var(--header-background-color);
+    box-shadow: var(--header-box-shadow);
+}
+.header-nav {
+    padding: 0.75rem 1rem;
+}
+
+.header-nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: var(--flex-direction);
+}
+
+.header-nav .navbar ul li a {
+    padding: 5px 10px;
+    margin: 0 10px;
+}
+
+.header-nav .navbar div > ul > li {
+    float: var(--dir);
+}
+
+.header-nav .navbar ul li ul {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    background: white;
+    transition-duration: 0.7s;
+    margin-top: 5px;
+    width: max-content;
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+}
+
+.header-nav .navbar ul li:hover > ul {
+    visibility: visible;
+    opacity: 1;
+}
+
+.header-nav .navbar ul li ul li {
+    padding: 15px 10px;
+}
+
+.header-nav .navbar ul li ul li:not(:last-child) {
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+.header-nav .navbar ul li ul li ul {
+    position: absolute;
+    right: 100%;
+    top: 0;
+}
+
+.header-nav .logo {
+    float: var(--dir);
+    max-width: var(--header-max-logo-width);
+    width: auto;
+    height: auto;
+}
+
+.header-nav .navbar {
+    float: var(--opposite-dir);
+}
+
+.headbtn-icon {
+    font-size: 24px;
+}
+
+#header-search {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left:0;
+    z-index:9999;
+    background: rgba(255, 255, 255, 0.95);
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+#header-search form {
+    position: fixed;
+    top: 40%;
+    width: 50%;
+}
+#header-search form input {
+    font-size: 1.5em;
+    background: transparent;
+    box-shadow: none;
+    width: 100%;
+    text-align: center;
+    border: 0;
+    margin: 0;
+    outline: none;
+}
+#search-close {
+    color: #ef5350;
+    position: fixed;
+    top: 50px;
+    right: 100px;
+    font-size: 30px;
+    font-weight: 700;
+    cursor: pointer;
+}
+/*#header-search .header-search-container{*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    flex-wrap: wrap;*/
+/*}*/

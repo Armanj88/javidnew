@@ -1,0 +1,72 @@
+/*default settings*/
+html, body {
+    height: 100%;
+}
+a {
+    color: var(--default-link-color);
+}
+a:hover {
+    text-decoration: none;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+/*/default settings*/
+
+/*default classes and ids*/
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.grid-2 {
+    display: grid;
+    width: 100%;
+    grid-column-gap: 50px;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-3 {
+    display: grid;
+    width: 100%;
+    grid-column-gap: 40px;
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-4 {
+    display: grid;
+    width: 100%;
+    grid-column-gap: 30px;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid-5 {
+    display: grid;
+    width: 100%;
+    grid-column-gap: 20px;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.grid-6 {
+    display: grid;
+    width: 100%;
+    grid-column-gap: 10px;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.hidden {
+    visibility: hidden;
+}
+.visible {
+    visibility: visible;
+}
+#page {
+    position: relative;
+}
+/*/default classes and ids*/
