@@ -7,10 +7,10 @@
 
 $action_url = esc_url(home_url('/'));
 
-if (is_archive())
-{
-    $action_url = "";
-}
+//if (is_archive())
+//{
+//    $action_url = "";
+//}
 
 $search_form_placeholder = esc_attr_x('What are you looking for?', 'placeholder', 'javid');
 

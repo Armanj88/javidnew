@@ -1,0 +1,8 @@
+.updated:not(.published) {
+    display: none;
+}
+
+.archive-article {
+    margin-bottom: 10px;
+    height: min-content;
+}

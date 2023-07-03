@@ -15,7 +15,8 @@ img {
 /*/default settings*/
 
 /*default classes and ids*/
-.clearfix::after {
+.clearfix::after,
+.comment-body::after {
     content: "";
     display: table;
     clear: both;
@@ -68,5 +69,17 @@ img {
 }
 #page {
     position: relative;
+}
+.entry-content {
+    line-height: 1.8;
+}
+.box-shadow {
+    box-shadow: var(--box-shadow);
+}
+.border-box {
+    border-radius: var(--border-radius);
+}
+.padding-box {
+    padding: 1rem;
 }
 /*/default classes and ids*/

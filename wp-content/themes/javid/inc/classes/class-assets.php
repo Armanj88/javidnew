@@ -34,6 +34,8 @@ class Assets {
         wp_register_style('font-css', JAVID_CSS_URI . '/global/iransans.css', []);
         wp_register_style('fontawesome', JAVID_LIBRARY_URI . '/css/all.min.css', []);
         wp_register_style('singular-css', JAVID_CSS_URI . '/singular.css', []);
+        wp_register_style('archive-css', JAVID_CSS_URI . '/archive.css', []);
+        wp_register_style('author-css', JAVID_CSS_URI . '/author.css', []);
 
 
         // Enqueue Styles
@@ -44,6 +46,12 @@ class Assets {
 
         if (is_singular()) {
             wp_enqueue_style('singular-css');
+        }
+        if ((is_archive() && !is_search()) || is_home()) {
+            wp_enqueue_style('archive-css');
+        }
+        if (is_author()) {
+            wp_enqueue_style('author-css');
         }
     }
 

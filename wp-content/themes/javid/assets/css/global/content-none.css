@@ -1,0 +1,24 @@
+.no-result {
+    padding: 2rem;
+}
+
+.not-found-404 .container {
+    position: relative;
+}
+
+.no-result .page-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.no-result form {
+    margin-top: 20px !important;
+}
+
+.no-result p {
+    line-height: 1.5;
+}
+
+.not-found-404 .no-result {
+    margin-top: 25%;
+}

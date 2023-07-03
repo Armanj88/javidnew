@@ -18,6 +18,10 @@ if (! defined('JAVID_CSS_URI')) {
     define( 'JAVID_CSS_URI', untrailingslashit(JAVID_DIR_URI . '/assets/css'));
 }
 
+if (! defined('JAVID_IMG_URI')) {
+    define( 'JAVID_IMG_URI', untrailingslashit(JAVID_DIR_URI . '/assets/img'));
+}
+
 if (! defined('JAVID_JS_URI')) {
     define( 'JAVID_JS_URI', untrailingslashit(JAVID_DIR_URI . '/assets/js'));
 }

@@ -14,7 +14,7 @@ $has_post_thumbnail = get_the_post_thumbnail($the_post_id);
 
 <div class="entry-content <?php if ($has_post_thumbnail): echo 'split-view'; endif; ?>">
     <?php
-    if (is_single()) {
+    if (is_singular()) {
         the_content(
             sprintf(
                 wp_kses(

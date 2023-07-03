@@ -17,5 +17,5 @@ function colorConvert(css_variable, opacity= 1) {
     document.documentElement.style.setProperty(`${css_variable}-rgb-${opacity}`, `rgba(${red} ${green} ${blue} / ${opacity}%)`);
 }
 
-colorConvert('--primary-color');
+colorConvert('--primary-color', 20);
 colorConvert('--secondary-color', 40);

@@ -14,6 +14,8 @@
 if ( post_password_required() ) {
     return;
 }
+
+$comments_close = false;
 ?>
 
 <div id="comments" class="comments-area mt-5">
@@ -59,8 +61,13 @@ if ( post_password_required() ) {
 
         <?php if ( ! comments_open() && get_comments_number() ) : ?>
             <p class="no-comments"><?php _e( 'Comments are closed.', 'javid' ); ?></p>
+            <?php $comments_close = true; ?>
         <?php endif; ?>
 
+    <?php elseif (comments_open() && !have_comments()): ?>
+        <div class="comments-form" id="comments-form">
+            <?php comment_form(); ?>
+        </div>
     <?php endif; // have_comments() ?>
 
 </div><!-- #comments -->
