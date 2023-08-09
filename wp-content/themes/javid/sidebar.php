@@ -7,6 +7,6 @@
 
 ?>
 
-<aside id="secondary" role="complementary">
+<aside id="secondary" class="post-sidebar" role="complementary">
     <?php dynamic_sidebar('posts-sidebar'); ?>
 </aside>

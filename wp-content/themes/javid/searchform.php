@@ -12,6 +12,7 @@ $action_url = esc_url(home_url('/'));
 //    $action_url = "";
 //}
 
+
 ?>
 <form class="form-inline my-2 my-lg-0" role="search" method="get" action="<?php echo $action_url; ?>">
 	<span class="screen-reader-text">

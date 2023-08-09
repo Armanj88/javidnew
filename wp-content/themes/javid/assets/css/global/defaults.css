@@ -1,17 +1,52 @@
 /*default settings*/
 html, body {
     height: 100%;
+    scroll-behavior: smooth;
+}
+body {
+    text-align: var(--dir);
 }
 a {
     color: var(--default-link-color);
 }
+p,
+.text-left,
+.text-right {
+    text-align: var(--dir) !important;
+}
+
+.widget p {
+    line-height: 1.6;
+}
+
+.align-center {
+    display: block;
+    text-align: center;
+}
 a:hover {
     text-decoration: none;
 }
-img {
+img:not(.post-wrap img),
+.entry-header img {
     width: 100%;
     height: auto;
 }
+.post-wrap .wp-block-image img {
+    margin-right: auto;
+    margin-left: auto;
+    display:block;
+}
+div:not(.elementor-page div),
+.entry-title a {
+    line-height: 1.5;
+}
+h1, h2, h3, h4, h5, h6,
+.post-wrap p {
+    line-height: 2;
+}
+/*{*/
+/*    text-align: var(--dir);*/
+/*}*/
 /*/default settings*/
 
 /*default classes and ids*/
@@ -81,5 +116,23 @@ img {
 }
 .padding-box {
     padding: 1rem;
+}
+.bg-color-primary {
+    background: var(--primary-color);
+}
+.bg-color-secondary {
+    background: var(--secondary-color);
+}
+.text-color-primary {
+    color: var(--primary-color);
+}
+.text-color-secondary {
+    color: var(--secondary-color);
+}
+.updated:not(.published) {
+     display: none;
+ }
+.page-title, input {
+    text-align: var(--dir);
 }
 /*/default classes and ids*/

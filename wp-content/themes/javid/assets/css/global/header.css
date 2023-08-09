@@ -4,8 +4,11 @@
 .site-header {
     background: var(--header-background-color);
     box-shadow: var(--header-box-shadow);
+    z-index: 999;
+    position: relative;
 }
-.header-nav {
+.header-nav,
+.navbar.elementor-widget {
     padding: 0.75rem 1rem;
 }
 
@@ -13,44 +16,59 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-direction: var(--flex-direction);
+    /*flex-direction: var(--flex-direction);*/
+    flex-direction: row;
 }
 
-.header-nav .navbar ul li a {
+.header-nav .navbar ul li a,
+.navbar.elementor-widget ul li a {
     padding: 5px 10px;
     margin: 0 10px;
 }
 
-.header-nav .navbar div > ul > li {
+.header-nav .navbar div > ul > li,
+.navbar.elementor-widget div > ul > li {
     float: var(--dir);
 }
 
-.header-nav .navbar ul li ul {
+.header-nav .navbar ul li ul,
+.navbar.elementor-widget ul li ul {
     position: absolute;
     visibility: hidden;
     opacity: 0;
     background: white;
-    transition-duration: 0.7s;
+    transition-duration: 0.5s;
     margin-top: 5px;
     width: max-content;
     box-shadow: var(--box-shadow);
     border-radius: var(--border-radius);
 }
 
-.header-nav .navbar ul li:hover > ul {
+.header-nav .navbar ul li:hover > ul,
+.navbar.elementor-widget ul li:hover > ul {
     visibility: visible;
     opacity: 1;
 }
 
-.header-nav .navbar ul li ul li {
-    padding: 15px 10px;
+.header-nav .navbar ul li ul li,
+.navbar.elementor-widget ul li ul li {
+    position: relative;
 }
 
-.header-nav .navbar ul li ul li:not(:last-child) {
+.header-nav .navbar ul li ul li a,
+.navbar.elementor-widget ul li ul li a {
+    padding: 15px 10px;
+    display: block;
+    text-align: var(--dir);
+}
+
+.header-nav .navbar ul li ul li:not(:last-child),
+.navbar.elementor-widget ul li ul li:not(:last-child) {
     border-bottom: 1px solid rgba(0, 0, 0, .1);
 }
 
-.header-nav .navbar ul li ul li ul {
+.header-nav .navbar ul li ul li ul,
+.navbar.elementor-widget ul li ul li ul {
     position: absolute;
     right: 100%;
     top: 0;
@@ -69,6 +87,17 @@
 
 .headbtn-icon {
     font-size: 24px;
+}
+
+#responsive-menu-icon {
+    font-size: 28px !important;
+    font-weight: 900 !important;
+    display: none !important;
+}
+
+.head-cta {
+    background: var(--primary-color);
+    border-radius: var(--border-radius);
 }
 
 #header-search {

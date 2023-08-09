@@ -22,7 +22,7 @@ $search_form_placeholder = esc_attr_x('What are you looking for?', 'placeholder'
 	<span class="screen-reader-text">
 		<?php echo _x('Search for:', 'label', 'javid') ?>
 	</span>
-    <input type="search" autocomplete="off"
+    <input type="search" autocomplete="off" id="searchform-input-header"
            placeholder="<?php echo $search_form_placeholder ?>"
            value="<?php the_search_query(); ?>" name="s" aria-label="Search">
 </form>

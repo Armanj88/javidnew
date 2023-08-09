@@ -1,0 +1,104 @@
+/*social media widget 1*/
+.jsocial-media-widget1 .jsocial-aparat {
+    background-color: #E61358;
+    background-image: url('../../img/aparat.png');
+    background-position: center calc(50% - 2px);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    min-height: 70px;
+}
+
+.jsocial-media-widget1 .jsocial-link {
+    width: 100%;
+    /* margin: 7px; */
+}
+
+.jsocial-media-widget1 .jsocial-link div {
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.jsocial-media-widget1 .jsocial-link div i {
+    color: #fff !important;
+    /* font-family: 'Font Awesome 5 Brands'; */
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 100;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.jsocial-media-widget1 .jsocial-aparat {
+    background-color: #E61358;
+    background-image: url('../../img/aparat.png');
+    background-position: center calc(50% - 2px);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    min-height: 70px;
+}
+
+.jsocial-media-widget1 .jsocial-instagram {
+    background-color: #E96791;
+    box-shadow: 0 7px 30px #e9679170;
+    background-image: linear-gradient( 120deg , #F47778, #E96791);
+}
+
+.jsocial-media-widget1 .jsocial-telegram {
+    background-color: #4361ee;
+    box-shadow: 0 7px 30px #4361ee70;
+    background-image: linear-gradient( 120deg ,#03b8ff,#4361ee);
+}
+
+.jsocial-media-widget1 .jsocial-youtube {
+    background-color: #fd3535;
+    box-shadow: 0 7px 30px #fd353570;
+    background-image: linear-gradient( 120deg ,#fd7478,#fd3535);
+}
+
+.jsocial-media-widget1 .jsocial-twitter {
+    background-image: linear-gradient(120deg, #009DEC, #0fafff);
+}
+
+.jsocial-media-widget1 .jsocial-facebook {
+    background-image: linear-gradient(120deg, #3C5693, #1773EB);
+}
+
+.jsocial-media-widget1 .jsocial-linkedin {
+    background-image: linear-gradient(120deg, #0074b1, #1fa7ef);
+}
+
+.jsocial-media-widget1 .jsocial-whatsapp {
+    background-image: linear-gradient(120deg, #1BD040, #2bf754);
+}
+
+/*last post widget*/
+.javid-lastpost img {
+    object-fit: cover;
+    border-radius: 100%;
+    width: 75px !important;
+    height: 75px !important;
+    overflow: hidden;
+}
+
+.javid-lastpost .post {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.javid-lastpost span {
+    text-align: var(--dir);
+    display: block;
+    line-height: 1.5;
+    margin: 0 15px;
+}
+
+.javid-lastpost .all {
+    display: inline-block;
+    float: var(--dir);
+    margin-top: 20px;
+    border-radius: var(--border-radius);
+}

@@ -1,0 +1,9 @@
+.post-sidebar .widget:not(.widget_media_image) {
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+    padding: 1.5rem;
+}
+
+.post-sidebar img {
+    border-radius: var(--border-radius);
+}

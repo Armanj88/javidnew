@@ -1,8 +1,52 @@
-.updated:not(.published) {
-    display: none;
-}
-
 .archive-article {
     margin-bottom: 10px;
     height: min-content;
+}
+
+.archive-article .entry-image img {
+    border-radius: var(--border-radius);
+}
+
+.javid-pagination .page-numbers span {
+    transition-duration: 0.25s;
+}
+
+.javid-pagination .page-numbers.current span {
+    background: var(--secondary-color);
+}
+
+.javid-pagination .page-numbers:hover span,
+.javid-pagination .prev:hover,
+.javid-pagination .next:hover {
+    background: var(--primary-color);
+}
+
+.javid-pagination .prev,
+.javid-pagination .next {
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid #6c757d;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color .25s ease-in-out, background-color .25s ease-in-out, border-color .25s ease-in-out, box-shadow .25s ease-in-out;
+}
+
+.javid-pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.javid-read-more button:hover {
+    background: var(--secondary-color);
 }

@@ -2,7 +2,7 @@
 * This code will convert the hex color code that user entered to rgb color
 */
 
-function colorConvert(css_variable, opacity= 1) {
+function colorConvert(css_variable, opacity) {
     const hexValue = getComputedStyle(document.documentElement).getPropertyValue(`${css_variable}`).trim();
 
     // Remove the '#' symbol from the hex value
@@ -19,3 +19,4 @@ function colorConvert(css_variable, opacity= 1) {
 
 colorConvert('--primary-color', 20);
 colorConvert('--secondary-color', 40);
+colorConvert('--footer-top-border-color', 50);

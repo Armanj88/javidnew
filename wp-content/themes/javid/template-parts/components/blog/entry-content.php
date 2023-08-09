@@ -35,8 +35,13 @@ $has_post_thumbnail = get_the_post_thumbnail($the_post_id);
             ]
         );
     } else {
-        javid_the_excerpt(200);
-        echo javid_excerpt_more();
+        if (get_theme_mod('archives_enable_excerpt', true)) {
+            javid_the_excerpt(200);
+        }
+
+        if (get_theme_mod('archives_enable_read_more', true)) {
+            echo javid_excerpt_more();
+        }
     }
 
     ?>

@@ -1,0 +1,313 @@
+/*
+Javid custom elementor widgets css
+*/
+
+.javid-elementor-widget p {
+    line-height: 1.5;
+}
+
+/*box icon*/
+.boxicon {
+    display: flex;
+    align-items: center;
+}
+
+.boxicon .icon {
+    float:right;
+}
+
+.boxicon .boxicontitle {
+    float:right;
+    display: block;
+    font-size: 20px !important;
+    font-weight: 700;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 2px;
+}
+
+/*/box icon*/
+
+/*box icon 2*/
+
+.boxicon2 .icon i {
+    font-size: 40px;
+    margin: 0 0 10px;
+}
+.boxicon2 * {
+    text-align: center !important;
+}
+
+.boxicon2 .boxicon2-title {
+    font-size: 1.4em !important;
+    font-weight: 700 !important;
+    /* padding-bottom: 10px; */
+    border: none;
+    display: block;
+    /* margin-bottom: 10px; */
+}
+
+/*/box icon 2*/
+
+/*price box*/
+
+.price-box {
+    /* background-color: rgb(255, 255, 255); */
+    box-shadow: rgba(0, 0, 0, 0.1) 0 0 10px 0;
+    position: relative;
+    /* border-radius: 20px; */
+    padding: 20px;
+    background-color: rgb(55, 85, 95);
+    border-radius: 15px;
+}
+
+.price-box .price-line {
+    align-items: center;
+    position: absolute;
+    width: 80%;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: #37555f;
+    margin: 10px 0 0;
+    border-radius: 0 15px 15px 0;
+    background-color: #fec901;
+}
+
+.price-box .price-line .value {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.price-box .price-items {
+    margin: 120px 0 0;
+}
+
+.price-box .price-items ul li {
+    padding: 3px;
+    color: #fff;
+    text-align: var(--dir);
+}
+
+.price-box .price-items ul li::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 10px;
+    background-color: rgb(254, 201, 1);
+}
+
+.price-box .btn-wrapper {
+    /* color: white; */
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
+    background-color: rgb(254, 201, 1);
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    color: #1a2f34;
+}
+
+/*/price box*/
+
+/*search form*/
+
+.elementor-widget-searchform span {
+    font-size: 20px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.elementor-widget-searchform .elementor-widget-searchform-form {
+    padding: 10px 15px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgb(0 0 0 / 6%);
+    display: flex;
+}
+
+.elementor-widget-searchform .elementor-widget-searchform-form input {
+    flex: auto;
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.elementor-widget-searchform .elementor-widget-searchform-form button {
+    background-color: #FFC221;
+    color: #000000;
+    font-size: 18px;
+    padding: 20px 40px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: none;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+/*/search form*/
+
+/*grid post*/
+
+.grid-post article {
+    padding: 10px;
+    background: #fff;
+}
+
+.grid-post article .archive-post-title h3 {
+    text-align: center;
+    line-height: 2;
+    font-size: 1.2rem;
+}
+
+.grid-post article .archive-post-thumbnail img {
+    border-radius: 7px;
+    width: 100%;
+    height: auto;
+}
+.grid-post .grid-post-title {
+    display: block;
+    font-size: 2em;
+    font-weight: 700;
+    padding: 5px;
+    text-align: var(--dir);
+}
+.grid-post .grid-post-description {
+    font-size: 1.1em;
+    font-weight: 300;
+    color: #444;
+    display: block;
+    margin-bottom: 10px;
+    float: var(--dir);
+}
+.grid-post .grid-post-button {
+    float: var(--opposite-dir);
+    /* margin-bottom: 10px; */
+    border-radius: 7px;
+    background: #673ab6;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin-top: calc(9% - 30px);
+    margin-left: 5px;
+}
+
+.grid-post .grid-post-button a {
+    color: #fff;
+}
+.grid-post .grid-3 {
+    margin-top: 1rem;
+}
+
+/*/grid post*/
+
+
+/*javid list*/
+.elementor-widget-javidlist .elementor-list-widget-item {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.elementor-widget-javidlist .elementor-list-widget-item i {
+    float: right;
+}
+/*/javid list*/
+
+/*services box*/
+
+.servicesbox {
+    padding: 25px;
+    border-radius: 10px;
+    display: block;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgb(0 0 0 / 6%);
+}
+.servicesbox .icon_wrapper {
+    display: flex;
+}
+.servicesbox .icon_wrapper .icon_section {
+    background-color: #fd5e5e;
+    /*display: inline-block;*/
+    color: white;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.servicesbox .title {
+    margin: 10px 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+.servicesbox .description {
+    color: #35495C;
+    font-size: 14px;
+}
+
+/*/services box*/
+
+/*services box 2*/
+.servicesbox {
+    min-height: 240px !important;
+}
+
+.servicesbox .icon i {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.servicesbox * {
+    text-align: center !important;
+}
+.servicesbox .title {
+    font-size: 1.4em !important;
+    font-weight: 700 !important;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #bbb;
+    display: block;
+    margin-bottom: 10px;
+}
+/*/services box 2*/
+
+/*services box 3*/
+.servicesbox3 .icon {
+    background-color: #fd5e5e;
+    /* display: inline-block; */
+    color: white;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    float: var(--dir);
+    margin: auto 20px;
+}
+
+.servicesbox3 {
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+    padding: 20px 5px;
+}
+
+.servicesbox3 .title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+.servicesbox3 .servicesbox-desc {
+    font-weight: 300;
+    font-size: 16px;
+}

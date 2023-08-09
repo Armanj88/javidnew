@@ -1,17 +1,20 @@
 <?php
 
-function get_the_post_custom_thumbnail( $post_id, $size = 'featured-thumbnail', $additional_attributes = [] ) {
+function get_the_post_custom_thumbnail( $post_id, $size = 'featured-thumbnail', $additional_attributes = [], $lazy_load = true ) {
 	$custom_thumbnail = '';
 	if ( null == $post_id ) {
 		$post_id = get_the_ID();
 	}
 
 	if (has_post_thumbnail($post_id)) {
-		$default_attributes = [
-			'loading' => 'lazy'
-		];
+		if ($lazy_load) {
+			$default_attributes = ['loading' => 'lazy'];
+			$attributes = array_merge($additional_attributes, $default_attributes);
+		} else {
+			$default_attributes = [];
+			$attributes = $additional_attributes;
+		}
 
-		$attributes = array_merge($additional_attributes, $default_attributes);
 
 		$custom_thumbnail = wp_get_attachment_image(
 			get_post_thumbnail_id( $post_id ),
@@ -23,8 +26,8 @@ function get_the_post_custom_thumbnail( $post_id, $size = 'featured-thumbnail', 
 	return $custom_thumbnail;
 }
 
-function the_post_custom_thumbnail ( $post_id, $size = 'featured-thumbnail', $additional_attributes = [] ) {
-	echo get_the_post_custom_thumbnail($post_id, $size, $additional_attributes);
+function the_post_custom_thumbnail ( $post_id, $size = 'featured-thumbnail', $additional_attributes = [], $lazy_load = true ) {
+	echo get_the_post_custom_thumbnail($post_id, $size, $additional_attributes, $lazy_load);
 }
 
 function javid_posted_on() {
@@ -77,7 +80,8 @@ function javid_the_excerpt($trim_character_count = 0) {
 
 function javid_excerpt_more ( $more = '' ) {
 	if ( ! is_single() ) {
-		$more = sprintf( '<a href="%1$s" class="javid-read-more text-white"><button class="mt-4 btn btn-info d-block">%2$s</button></a>',
+//        $more = sprintf( '<a href="%1$s" class="javid-read-more text-white"><button class="mt-4 btn btn-info d-block">%2$s</button></a>',
+        $more = sprintf( '<a href="%1$s" class="javid-read-more"><button class="mt-4 btn bg-color-primary d-block">%2$s</button></a>',
 			get_permalink(get_the_ID()),
 			__( 'Read more', 'javid' )
 		);
@@ -90,7 +94,7 @@ function javid_pagination() {
 		'before_page_number' => '<span class="btn border border-secondary mr-2 mb-2">',
 		'after_page_number' => '</span>'
 	];
-	$allowed_tags =  [
+	$allowed_tags = [
 		'span' => [
 			'class' => []
 		],
@@ -99,6 +103,6 @@ function javid_pagination() {
 			'href' => [],
 		]
 	];
-	printf( '<nav class="javid-pagination clearfix">%s</nav>', wp_kses( paginate_links( $args ), $allowed_tags ) );
+	printf( '<nav class="javid-pagination clearfix"><div class="buttons">%s</div></nav>', wp_kses( paginate_links( $args ), $allowed_tags ) );
 }
 

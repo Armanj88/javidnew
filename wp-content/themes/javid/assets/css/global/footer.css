@@ -1,7 +1,12 @@
 .site-footer {
     margin-top: 2rem;
     padding: 2rem;
-    border-top: var(--footer-top-border-width) solid var(--footer-top-border-color);
+    border-top: var(--footer-top-border-width) solid var(--footer-top-border-color-rgb-50);
+    background-color: var(--footer-background-color);
+    background-image: var(--footer-background-image);
+    background-position: center center;
+    background-repeat: var(--footer-background-repeat);
+    background-size: var(--footer-background-size);
 }
 
 
@@ -31,12 +36,16 @@
 }
 
 /*footer widgets*/
+.widget {
+    overflow: hidden;
+}
 .widget .widget-title {
     font-size: 20px;
     font-weight: 700;
     padding-bottom: 10px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     margin-bottom: 10px;
+    text-align: var(--dir);
 }
 
 /*lists*/
@@ -51,6 +60,7 @@
     margin: 7px 0;
     background: #d3d3d3bf;
     font-weight: 400;
+    text-align: var(--dir);
 }
 
 /*forms*/
@@ -69,6 +79,8 @@
     outline: none;
     border: none;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    margin: 5px;
 }
 .widget form input::placeholder {
     font-size: 13px;
@@ -81,4 +93,19 @@
     outline: none;
     border: 1px solid rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    background: var(--secondary-color);
+}
+
+/*copyright*/
+.footer-copyright.not-centered {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-copyright {
+    margin-top: 20px;
+}
+
+.footer-copyright.centered p {
+    text-align: center !important;
 }

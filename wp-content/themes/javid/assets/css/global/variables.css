@@ -16,7 +16,11 @@
 
     /*footer variables*/
     --footer-top-border-width: 2px;
-    --footer-top-border-color: rgba(0, 0, 0, 0.5);
+    --footer-top-border-color: #000000;
+    --footer-background-color: #fff;
+    --footer-background-image: none;
+    --footer-background-size: auto;
+    --footer-background-repeat: repeat;
 
     /*singular variables*/
     --thumbnail-float: left;

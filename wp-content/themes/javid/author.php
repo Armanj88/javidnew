@@ -8,7 +8,7 @@
 get_header();
 $author = get_queried_object();
 
-$no_of_columns = 3;
+$no_of_columns = get_theme_mod('archives_columns_number', 3);
 
 ?>
     <div id="primary">
@@ -36,7 +36,7 @@ $no_of_columns = 3;
                                 while (have_posts()) : the_post();
                                     // get_template_part( 'template-parts/content', '', [ 'container_classes' => 'col-lg-4 col-md-6 col-sm-12 pb-4' ] );
                                     ?>
-                                    <div class="box-shadow border-box padding-box archive-article">
+                                    <div class="box-shadow border-box padding-box archive-article mb-5">
                                         <?php
                                         get_template_part('template-parts/content');
                                         ?>

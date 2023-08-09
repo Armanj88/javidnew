@@ -1,0 +1,16 @@
+.entry-meta,
+.entry-content {
+    text-align: var(--dir);
+}
+
+.responsive-menu {
+    right: -100% !important;
+}
+.responsive-menu.opened {
+    right: 0 !important;
+}
+
+div#ez-toc-container {
+    margin-left: auto;
+    margin-right: 25px;
+}

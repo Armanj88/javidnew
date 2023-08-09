@@ -1,7 +1,7 @@
 <?php
 
-$footer_row1_columns = 4;
-$footer_row2_columns = 2;
+$footer_row1_columns = get_theme_mod('footer_widgets_row1_columns', 4);
+$footer_row2_columns = get_theme_mod('footer_widgets_row2_columns', 2);
 
 $widgets_row1 = wp_get_sidebars_widgets()['footer-widgets-1'];
 $widgets_row2 = wp_get_sidebars_widgets()['footer-widgets-2'];

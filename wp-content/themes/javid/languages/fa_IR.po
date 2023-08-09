@@ -1,0 +1,1048 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Javid\n"
+"POT-Creation-Date: 2023-08-04 15:25+0330\n"
+"PO-Revision-Date: 2023-08-04 15:26+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: author.php:24
+msgid "Articles written by "
+msgstr "مقالات نوشته شده توسط "
+
+#: comments.php:27
+#, php-format
+msgctxt "comments title"
+msgid "One thought on \"%2$s\""
+msgid_plural "%1$s thoughts on \"%2$s\""
+msgstr[0] "%1$s نظر درباره \"%2$s\""
+msgstr[1] "یک نظر در مورد \"%2$s\""
+
+#: comments.php:56
+msgid "Comment navigation"
+msgstr "ناوبری نظرات"
+
+#: comments.php:57
+msgid "&larr; Older Comments"
+msgstr "&larr; نظریات قبلی"
+
+#: comments.php:58
+msgid "Newer Comments &rarr;"
+msgstr "نظرات جدیدتر &rarr;"
+
+#: comments.php:63
+msgid "Comments are closed."
+msgstr "نظرات بسته است."
+
+#: inc/classes/class-PostTypes.php:32 inc/classes/class-javid.php:537
+msgctxt "Post Type General Name"
+msgid "Parts"
+msgstr "بخش‌ها"
+
+#: inc/classes/class-PostTypes.php:33 inc/classes/class-javid.php:538
+msgctxt "Post Type Singular Name"
+msgid "Part"
+msgstr "بخش"
+
+#: inc/classes/class-PostTypes.php:34 inc/classes/class-javid.php:539
+msgctxt "Admin Menu text"
+msgid "Parts"
+msgstr "بخش‌ها"
+
+#: inc/classes/class-PostTypes.php:35 inc/classes/class-javid.php:540
+msgctxt "Add New on Toolbar"
+msgid "Part"
+msgstr "بخش"
+
+#: inc/classes/class-PostTypes.php:36 inc/classes/class-javid.php:541
+msgid "Part Archives"
+msgstr "آرشیو بخش"
+
+#: inc/classes/class-PostTypes.php:37 inc/classes/class-javid.php:542
+msgid "Part Attributes"
+msgstr "ویژگی های بخش"
+
+#: inc/classes/class-PostTypes.php:38 inc/classes/class-javid.php:543
+msgid "Parent Part:"
+msgstr "بخش والد:"
+
+#: inc/classes/class-PostTypes.php:39 inc/classes/class-javid.php:544
+msgid "All Parts"
+msgstr "همه بخش ها"
+
+#: inc/classes/class-PostTypes.php:40 inc/classes/class-javid.php:545
+msgid "Add New Part"
+msgstr "اضافه کردن بخش جدید"
+
+#: inc/classes/class-PostTypes.php:41 inc/classes/class-javid.php:546
+msgid "Add New"
+msgstr "اضافه‌ کردن جدید"
+
+#: inc/classes/class-PostTypes.php:42 inc/classes/class-javid.php:547
+msgid "New Part"
+msgstr "بخش جدید"
+
+#: inc/classes/class-PostTypes.php:43 inc/classes/class-javid.php:548
+msgid "Edit Part"
+msgstr "ویرایش بخش"
+
+#: inc/classes/class-PostTypes.php:44 inc/classes/class-javid.php:549
+msgid "Update Part"
+msgstr "بروزرسانی بخش"
+
+#: inc/classes/class-PostTypes.php:45 inc/classes/class-javid.php:550
+msgid "View Part"
+msgstr "نمایش بخش‌"
+
+#: inc/classes/class-PostTypes.php:46 inc/classes/class-javid.php:551
+msgid "View Parts"
+msgstr "نمایش بخش‌ها"
+
+#: inc/classes/class-PostTypes.php:47 inc/classes/class-javid.php:552
+msgid "Search Part"
+msgstr "جستجوی بخش"
+
+#: inc/classes/class-PostTypes.php:48 inc/classes/class-javid.php:553
+msgid "Not found"
+msgstr "چیزی پیدا نشد"
+
+#: inc/classes/class-PostTypes.php:49 inc/classes/class-javid.php:554
+msgid "Not found in Trash"
+msgstr "در سطل زباله یافت نشد"
+
+#: inc/classes/class-PostTypes.php:50 inc/classes/class-javid.php:555
+msgid "Featured Image"
+msgstr "تصویر شاخص"
+
+#: inc/classes/class-PostTypes.php:51 inc/classes/class-javid.php:556
+msgid "Set featured image"
+msgstr "قرار دادن تصویر شاخص"
+
+#: inc/classes/class-PostTypes.php:52 inc/classes/class-javid.php:557
+msgid "Remove featured image"
+msgstr "حذف تصویر شاخص"
+
+#: inc/classes/class-PostTypes.php:53 inc/classes/class-javid.php:558
+msgid "Use as featured image"
+msgstr "به عنوان تصویر شاخص استفاده کنید"
+
+#: inc/classes/class-PostTypes.php:54 inc/classes/class-javid.php:559
+msgid "Insert into Part"
+msgstr "در این بخش وارد کنید"
+
+#: inc/classes/class-PostTypes.php:55 inc/classes/class-javid.php:560
+msgid "Uploaded to this Part"
+msgstr "آپلود شده به این بخش"
+
+#: inc/classes/class-PostTypes.php:56 inc/classes/class-javid.php:561
+msgid "Parts list"
+msgstr "لیست بخش‌ها"
+
+#: inc/classes/class-PostTypes.php:57 inc/classes/class-javid.php:562
+msgid "Parts list navigation"
+msgstr "ناوبری لیست بخش‌ها"
+
+#: inc/classes/class-PostTypes.php:58 inc/classes/class-javid.php:563
+msgid "Filter Parts list"
+msgstr "فیلتر بخش ها"
+
+#: inc/classes/class-PostTypes.php:61 inc/classes/class-javid.php:566
+msgid "Part"
+msgstr "بخش"
+
+#: inc/classes/class-PostTypes.php:62 inc/classes/class-javid.php:567
+msgid ""
+"Custom parts for header, footer and etc. You can edit them with elementor"
+msgstr ""
+"قطعات سفارشی برای هدر، پاورقی و غیره. می توانید آنها را با المنتور ویرایش کنید"
+
+#: inc/classes/class-TaxDescriptionTinyMCE.php:35
+#: inc/classes/class-TaxDescriptionTinyMCE.php:69
+#: inc/classes/class-javid.php:393 inc/classes/class-javid.php:427
+msgctxt "Taxonomy Description"
+msgid "Description"
+msgstr "توضیح"
+
+#: inc/classes/class-TaxDescriptionTinyMCE.php:47
+#: inc/classes/class-TaxDescriptionTinyMCE.php:83
+#: inc/classes/class-javid.php:405 inc/classes/class-javid.php:441
+msgid ""
+"The description is not prominent by default, however some themes may show it."
+msgstr ""
+"توضیح به طور پیش‌فرض پررنگ نیست؛ با این حال، برخی از پوسته‌ها ممکن است آن را "
+"نمایش دهند."
+
+#: inc/classes/class-customizerAPI.php:85 inc/classes/class-javid.php:594
+msgid "Logo and Style"
+msgstr "لوگو و استایل"
+
+#: inc/classes/class-customizerAPI.php:95 inc/classes/class-javid.php:604
+msgid "Primary Color"
+msgstr "رنگ اولیه"
+
+#: inc/classes/class-customizerAPI.php:106 inc/classes/class-javid.php:615
+msgid "Secondary Color"
+msgstr "رنگ ثانویه"
+
+#: inc/classes/class-customizerAPI.php:120 inc/classes/class-javid.php:629
+#: inc/classes/elementor/boxicon.php:143 inc/classes/elementor/boxicon2.php:142
+#: inc/classes/elementor/boxicon3.php:150 inc/classes/elementor/sidebar.php:97
+msgid "Border Radius"
+msgstr "شعاع مرزی"
+
+#: inc/classes/class-customizerAPI.php:136 inc/classes/class-javid.php:645
+msgid "Show box shadow"
+msgstr "نمایش سایه باکس"
+
+#: inc/classes/class-customizerAPI.php:145 inc/classes/class-javid.php:665
+msgid "Header"
+msgstr "هدر"
+
+#: inc/classes/class-customizerAPI.php:167 inc/classes/class-javid.php:687
+msgid "Enabled Custom Header"
+msgstr "فعال سازی هدر سفارشی"
+
+#: inc/classes/class-customizerAPI.php:180 inc/classes/class-javid.php:700
+msgid "Select custom header"
+msgstr "انتخاب هدر سفارشی"
+
+#: inc/classes/class-customizerAPI.php:192 inc/classes/class-javid.php:712
+msgid "Header Background Color"
+msgstr "رنگ پس زمینه هدر"
+
+#: inc/classes/class-customizerAPI.php:206 inc/classes/class-javid.php:726
+msgid "Header button link"
+msgstr "لینک دکمه هدر"
+
+#: inc/classes/class-customizerAPI.php:218 inc/classes/class-javid.php:738
+msgid "Header button text"
+msgstr "متن دکمه هدر"
+
+#: inc/classes/class-customizerAPI.php:230 inc/classes/class-javid.php:750
+msgid "Show header login icon"
+msgstr "نمایش آیکون لاگین هدر"
+
+#: inc/classes/class-customizerAPI.php:242 inc/classes/class-javid.php:762
+msgid "Show header button"
+msgstr "نمایش دکمه هدر"
+
+#: inc/classes/class-customizerAPI.php:254 inc/classes/class-javid.php:774
+msgid "Show header search icon"
+msgstr "نمایش فرم جستجو هدر"
+
+#: inc/classes/class-customizerAPI.php:263 inc/classes/class-javid.php:783
+msgid "Footer"
+msgstr "فوتر"
+
+#: inc/classes/class-customizerAPI.php:285 inc/classes/class-javid.php:805
+msgid "Enabled Custom Footer"
+msgstr "فعال سازی فوتر سفارشی"
+
+#: inc/classes/class-customizerAPI.php:298 inc/classes/class-javid.php:818
+msgid "Select custom footer"
+msgstr "انتخاب فوتر سفارشی"
+
+#: inc/classes/class-customizerAPI.php:310 inc/classes/class-javid.php:830
+msgid "Footer Background Color"
+msgstr "رنگ پس‌زمینه فوتر"
+
+#: inc/classes/class-customizerAPI.php:323 inc/classes/class-javid.php:843
+msgid "Footer Background Image"
+msgstr "تصویر پس زمینه فوتر"
+
+#: inc/classes/class-customizerAPI.php:334 inc/classes/class-javid.php:854
+msgid "Cover"
+msgstr "پوشش"
+
+#: inc/classes/class-customizerAPI.php:335 inc/classes/class-javid.php:855
+msgid "Contain"
+msgstr "حاوی"
+
+#: inc/classes/class-customizerAPI.php:336 inc/classes/class-javid.php:856
+msgid "Auto"
+msgstr "خودکار"
+
+#: inc/classes/class-customizerAPI.php:340 inc/classes/class-javid.php:860
+msgid "Footer Background Size"
+msgstr "اندازه پس‌زمینه فوتر"
+
+#: inc/classes/class-customizerAPI.php:351 inc/classes/class-javid.php:871
+msgid "Repeat"
+msgstr "تکرار"
+
+#: inc/classes/class-customizerAPI.php:352 inc/classes/class-javid.php:872
+msgid "No Repeat"
+msgstr "بدون تکرار"
+
+#: inc/classes/class-customizerAPI.php:353 inc/classes/class-javid.php:873
+msgid "Repeat X"
+msgstr "تکرار در محور X"
+
+#: inc/classes/class-customizerAPI.php:354 inc/classes/class-javid.php:874
+msgid "Repeat Y"
+msgstr "تکرار در محور Y"
+
+#: inc/classes/class-customizerAPI.php:358 inc/classes/class-javid.php:878
+msgid "Footer Background Repeat"
+msgstr "تکرار پس‌زمینه فوتر"
+
+#: inc/classes/class-customizerAPI.php:370 inc/classes/class-javid.php:890
+msgid "Footer Top Border Width"
+msgstr "ضخامت حاشیه بالای فوتر"
+
+#: inc/classes/class-customizerAPI.php:383 inc/classes/class-javid.php:903
+msgid "Footer Top Border Color"
+msgstr "رنگ حاشیه بالای فوتر"
+
+#: inc/classes/class-customizerAPI.php:397 inc/classes/class-javid.php:917
+msgid "Footer Widgets Row 1 Columns Number"
+msgstr "تعداد ستون‌های ویجت های فوتر (ردیف 1)"
+
+#: inc/classes/class-customizerAPI.php:413 inc/classes/class-javid.php:933
+msgid "Footer Widgets Row 2 Columns Number"
+msgstr "تعداد ستون‌های ویجت های فوتر (ردیف 2)"
+
+#: inc/classes/class-customizerAPI.php:429 inc/classes/class-javid.php:949
+msgid "Show footer menu"
+msgstr "نمایش فهرست فوتر"
+
+#: inc/classes/class-customizerAPI.php:433
+#: inc/classes/class-customizerAPI.php:445 inc/classes/class-javid.php:953
+#: inc/classes/class-javid.php:965 template-parts/footer/copyright.php:8
+#: template-parts/footer/copyright.php:9
+msgid "All Rights Reserved"
+msgstr "تمامی حقوق محفوظ است"
+
+#: inc/classes/class-customizerAPI.php:441 inc/classes/class-javid.php:961
+msgid "Footer Copyright Right"
+msgstr "کپی‌رایت راست فوتر"
+
+#: inc/classes/class-customizerAPI.php:453 inc/classes/class-javid.php:973
+msgid "Footer Copyright Left"
+msgstr "کپی‌رایت چپ فوتر"
+
+#: inc/classes/class-customizerAPI.php:462 inc/classes/class-javid.php:982
+msgid "Archives"
+msgstr "آرشیوها"
+
+#: inc/classes/class-customizerAPI.php:475 inc/classes/class-javid.php:995
+msgid "Archives columns number"
+msgstr "تعداد ستون های آرشیوها"
+
+#: inc/classes/class-customizerAPI.php:491 inc/classes/class-javid.php:1011
+msgid "Enabled Post Meta"
+msgstr "نمایش متای پست"
+
+#: inc/classes/class-customizerAPI.php:503 inc/classes/class-javid.php:1023
+msgid "Enabled Read More Button"
+msgstr "نمایش دکمه ادامه مطلب"
+
+#: inc/classes/class-customizerAPI.php:515 inc/classes/class-javid.php:1035
+msgid "Enabled Categories Links"
+msgstr "نمایش لینک دسته‌بندی‌ها"
+
+#: inc/classes/class-customizerAPI.php:527 inc/classes/class-javid.php:1047
+msgid "Enabled Excerpt"
+msgstr "نمایش خلاصه"
+
+#: inc/classes/class-customizerAPI.php:539 inc/classes/class-javid.php:1059
+msgid "Make the title of post centered"
+msgstr "قرار دادن عنوان پست در وسط"
+
+#: inc/classes/class-customizerAPI.php:548 inc/classes/class-javid.php:1068
+msgid "Posts And Pages"
+msgstr "پست ها و صفحات"
+
+#: inc/classes/class-customizerAPI.php:561 inc/classes/class-javid.php:1081
+msgid "Show sidebar in posts"
+msgstr "نمایش سایدبار در پست ها"
+
+#: inc/classes/class-customizerAPI.php:573 inc/classes/class-javid.php:1093
+msgid "Show sidebar in page"
+msgstr "نمایش سایدبار در صفحات"
+
+#: inc/classes/class-customizerAPI.php:584 inc/classes/class-javid.php:1104
+msgid "Full Width"
+msgstr "تمام عرض"
+
+#: inc/classes/class-customizerAPI.php:585 inc/classes/class-javid.php:1105
+msgid "Right"
+msgstr "راست"
+
+#: inc/classes/class-customizerAPI.php:586 inc/classes/class-javid.php:1106
+msgid "Left"
+msgstr "چپ"
+
+#: inc/classes/class-customizerAPI.php:590 inc/classes/class-javid.php:1110
+msgid "Thumbnail Position"
+msgstr "موقعیت تصویر شاخص"
+
+#: inc/classes/class-customizerAPI.php:602 inc/classes/class-javid.php:1122
+msgid "Show next and previous post link"
+msgstr "نمایش لینک پست بعدی و قبلی"
+
+#: inc/classes/class-customizerAPI.php:614 inc/classes/class-javid.php:1134
+msgid "Show post meta"
+msgstr "نمایش متای پست"
+
+#: inc/classes/class-elementor.php:53 inc/classes/class-javid.php:466
+msgid "Javid Header"
+msgstr "هدر جاوید"
+
+#. Theme Name of the plugin/theme
+#: inc/classes/class-elementor.php:65 inc/classes/class-javid.php:478
+msgid "Javid"
+msgstr "جاوید"
+
+#: inc/classes/class-javid.php:36 inc/classes/widgets/class-SocialMedias1.php:9
+msgid "javid: social media 1"
+msgstr "جاوید:‌ شبکه‌های اجتماعی ۱"
+
+#: inc/classes/class-javid.php:128
+#: inc/classes/widgets/class-SocialMedias1.php:100
+msgid "Title "
+msgstr "عنوان "
+
+#: inc/classes/class-javid.php:129
+#: inc/classes/widgets/class-SocialMedias1.php:101
+msgid "Widget title"
+msgstr "عنوان ابزارک"
+
+#: inc/classes/class-javid.php:134
+#: inc/classes/widgets/class-SocialMedias1.php:104
+msgid "Aparat "
+msgstr "آپارات "
+
+#: inc/classes/class-javid.php:139
+#: inc/classes/widgets/class-SocialMedias1.php:108
+msgid "Instagram "
+msgstr "اینستاگرام "
+
+#: inc/classes/class-javid.php:144
+#: inc/classes/widgets/class-SocialMedias1.php:112
+msgid "Telegram "
+msgstr "تلگرام "
+
+#: inc/classes/class-javid.php:149
+#: inc/classes/widgets/class-SocialMedias1.php:116
+msgid "Youtube "
+msgstr "یوتیوب "
+
+#: inc/classes/class-javid.php:154
+#: inc/classes/widgets/class-SocialMedias1.php:120
+msgid "Twitter "
+msgstr "توییتر "
+
+#: inc/classes/class-javid.php:159
+#: inc/classes/widgets/class-SocialMedias1.php:124
+msgid "Facebook "
+msgstr "فیس‌بوک "
+
+#: inc/classes/class-javid.php:164
+#: inc/classes/widgets/class-SocialMedias1.php:128
+msgid "linkedin "
+msgstr "لینکدین "
+
+#: inc/classes/class-javid.php:169
+#: inc/classes/widgets/class-SocialMedias1.php:132
+msgid "Whatsapp "
+msgstr "واتس‌آپ "
+
+#: inc/classes/class-javid.php:199 inc/classes/widgets/class-lastpost.php:14
+msgid "Javid: Last Posts with Thumbnail"
+msgstr "جاوید:‌ آخرین مقالات با تصویر شاخص"
+
+#: inc/classes/class-javid.php:242 inc/classes/widgets/class-lastpost.php:56
+msgid "All posts"
+msgstr "همه مقالات"
+
+#: inc/classes/class-javid.php:260 inc/classes/widgets/class-lastpost.php:74
+msgid "last posts"
+msgstr "آخرین مقالات"
+
+#: inc/classes/class-javid.php:275 inc/classes/widgets/class-lastpost.php:89
+msgid "Title:"
+msgstr "عنوان:"
+
+#: inc/classes/class-javid.php:281 inc/classes/widgets/class-lastpost.php:95
+msgid "Button link"
+msgstr "لینک دکمه"
+
+#: inc/classes/class-javid.php:287 inc/classes/widgets/class-lastpost.php:101
+msgid "Category ID"
+msgstr "آیدی دسته‌بندی"
+
+#: inc/classes/class-javid.php:656
+msgid "Show preloader"
+msgstr "نمایش پیش بارگذار"
+
+#: inc/classes/class-javid.php:1146
+msgid "Show author box"
+msgstr "نمایش باکس نویسنده"
+
+#: inc/classes/class-javid.php:1152 inc/classes/class-javid.php:1154
+#: inc/classes/class-sidebars.php:30 inc/classes/class-sidebars.php:32
+msgid "Posts Sidebar"
+msgstr "سایدبار پست‌ها"
+
+#: inc/classes/class-javid.php:1161 inc/classes/class-sidebars.php:39
+msgid "Footer Widgets (Row 1)"
+msgstr "ویجت های فوتر (ردیف 1)"
+
+#: inc/classes/class-javid.php:1163 inc/classes/class-sidebars.php:41
+msgid "Footer widgets (Row 1)"
+msgstr "ویجت های فوتر (ردیف 1)"
+
+#: inc/classes/class-javid.php:1170 inc/classes/class-sidebars.php:48
+msgid "Footer Widgets (Row 2)"
+msgstr "ویجت های فوتر (ردیف 2)"
+
+#: inc/classes/class-javid.php:1172 inc/classes/class-sidebars.php:50
+msgid "Footer widgets (Row 2)"
+msgstr "ویجت های فوتر (ردیف 2)"
+
+#: inc/classes/class-javid.php:1182 inc/classes/class-menus.php:29
+msgid "Header Menu"
+msgstr "منوی هدر"
+
+#: inc/classes/class-javid.php:1183 inc/classes/class-menus.php:30
+msgid "Footer Menu"
+msgstr "فهرست فوتر"
+
+#: inc/classes/elementor/boxicon.php:11
+msgid "Box Icon"
+msgstr "جعبه آیکون"
+
+#: inc/classes/elementor/boxicon.php:26 inc/classes/elementor/boxicon2.php:26
+#: inc/classes/elementor/boxicon3.php:24 inc/classes/elementor/gridpost.php:36
+#: inc/classes/elementor/header/header-menu.php:25
+#: inc/classes/elementor/header/login-icon.php:25
+#: inc/classes/elementor/header/search-icon.php:25
+#: inc/classes/elementor/header/searchform.php:25
+#: inc/classes/elementor/price_box.php:26
+#: inc/classes/elementor/searchform.php:26
+#: inc/classes/elementor/services-box-2.php:26
+#: inc/classes/elementor/services-box-3.php:26
+#: inc/classes/elementor/services-box.php:32
+#: inc/classes/elementor/sidebar.php:26
+msgid "Content"
+msgstr "محتوا"
+
+#: inc/classes/elementor/boxicon.php:33 inc/classes/elementor/boxicon.php:37
+#: inc/classes/elementor/boxicon2.php:33 inc/classes/elementor/boxicon2.php:37
+#: inc/classes/elementor/boxicon3.php:31 inc/classes/elementor/boxicon3.php:35
+#: inc/classes/elementor/gridpost.php:43 inc/classes/elementor/gridpost.php:45
+#: inc/classes/elementor/price_box.php:33 inc/classes/elementor/price_box.php:37
+#: inc/classes/elementor/searchform.php:33
+#: inc/classes/elementor/searchform.php:37
+#: inc/classes/elementor/services-box-2.php:33
+#: inc/classes/elementor/services-box-2.php:37
+#: inc/classes/elementor/services-box-3.php:33
+#: inc/classes/elementor/services-box-3.php:37
+#: inc/classes/elementor/services-box.php:39
+#: inc/classes/elementor/services-box.php:43
+msgid "Title"
+msgstr "عنوان"
+
+#: inc/classes/elementor/boxicon.php:36 inc/classes/elementor/boxicon2.php:36
+#: inc/classes/elementor/boxicon3.php:34 inc/classes/elementor/price_box.php:36
+#: inc/classes/elementor/searchform.php:36
+#: inc/classes/elementor/services-box-2.php:36
+#: inc/classes/elementor/services-box-3.php:36
+#: inc/classes/elementor/services-box.php:42
+msgid "Enter the title..."
+msgstr "عنوان را وارد کنید..."
+
+#: inc/classes/elementor/boxicon.php:43 inc/classes/elementor/boxicon2.php:43
+#: inc/classes/elementor/boxicon3.php:51
+#: inc/classes/elementor/services-box-2.php:53
+#: inc/classes/elementor/services-box-3.php:53
+#: inc/classes/elementor/services-box.php:59
+msgid "Icon"
+msgstr "آیکون"
+
+#: inc/classes/elementor/boxicon.php:55 inc/classes/elementor/boxicon2.php:55
+#: inc/classes/elementor/boxicon3.php:63 inc/classes/elementor/gridpost.php:76
+#: inc/classes/elementor/header/header-menu.php:52
+#: inc/classes/elementor/header/login-icon.php:34
+#: inc/classes/elementor/header/search-icon.php:34
+#: inc/classes/elementor/header/searchform.php:34
+#: inc/classes/elementor/price_box.php:115
+#: inc/classes/elementor/searchform.php:64
+#: inc/classes/elementor/services-box-2.php:65
+#: inc/classes/elementor/services-box-3.php:65
+#: inc/classes/elementor/services-box.php:71
+#: inc/classes/elementor/sidebar.php:50
+msgid "Style"
+msgstr "استایل"
+
+#: inc/classes/elementor/boxicon.php:62 inc/classes/elementor/boxicon2.php:62
+#: inc/classes/elementor/boxicon3.php:70 inc/classes/elementor/list.php:131
+#: inc/classes/elementor/list.php:169
+#: inc/classes/elementor/services-box-2.php:72
+#: inc/classes/elementor/services-box-3.php:72
+msgid "Color"
+msgstr "رنگ"
+
+#: inc/classes/elementor/boxicon.php:70 inc/classes/elementor/boxicon2.php:70
+#: inc/classes/elementor/boxicon3.php:78
+#: inc/classes/elementor/services-box-2.php:80
+#: inc/classes/elementor/services-box-3.php:80
+#: inc/classes/elementor/services-box.php:100
+msgid "Background color"
+msgstr "رنگ پس زمینه"
+
+#: inc/classes/elementor/boxicon.php:78 inc/classes/elementor/boxicon2.php:78
+#: inc/classes/elementor/boxicon3.php:86
+#: inc/classes/elementor/services-box-2.php:88
+#: inc/classes/elementor/services-box-3.php:88
+#: inc/classes/elementor/services-box.php:108
+msgid "Icon color"
+msgstr "رنگ آیکون"
+
+#: inc/classes/elementor/boxicon.php:86 inc/classes/elementor/boxicon2.php:86
+#: inc/classes/elementor/boxicon3.php:94
+#: inc/classes/elementor/services-box-2.php:96
+#: inc/classes/elementor/services-box-3.php:96
+#: inc/classes/elementor/services-box.php:130
+msgid "Icon size"
+msgstr "سایز آیکون"
+
+#: inc/classes/elementor/boxicon.php:105 inc/classes/elementor/boxicon2.php:104
+#: inc/classes/elementor/boxicon3.php:112 inc/classes/elementor/sidebar.php:59
+msgid "Box Shadow"
+msgstr "سایه باکس"
+
+#: inc/classes/elementor/boxicon.php:113 inc/classes/elementor/boxicon2.php:112
+#: inc/classes/elementor/boxicon3.php:120 inc/classes/elementor/sidebar.php:67
+msgid "Padding"
+msgstr "فاصله داخلی"
+
+#: inc/classes/elementor/boxicon2.php:11
+msgid "Box Icon 2"
+msgstr "جعبه آیکون ۲"
+
+#: inc/classes/elementor/boxicon3.php:9
+msgid "Box Icon 3"
+msgstr "جعبه آیکون ۳"
+
+#: inc/classes/elementor/boxicon3.php:41 inc/classes/elementor/list.php:61
+msgid "Link"
+msgstr "لینک"
+
+#: inc/classes/elementor/boxicon3.php:44
+msgid "Enter the link..."
+msgstr "لینک را وارد کنید..."
+
+#: inc/classes/elementor/boxicon3.php:45 inc/classes/elementor/gridpost.php:61
+msgid "#"
+msgstr ""
+
+#: inc/classes/elementor/gridpost.php:18
+msgid "Grid Post"
+msgstr "شبکه پست"
+
+#: inc/classes/elementor/gridpost.php:51 inc/classes/elementor/gridpost.php:53
+#: inc/classes/elementor/services-box-2.php:43
+#: inc/classes/elementor/services-box-2.php:47
+#: inc/classes/elementor/services-box-3.php:43
+#: inc/classes/elementor/services-box-3.php:47
+#: inc/classes/elementor/services-box.php:49
+#: inc/classes/elementor/services-box.php:53
+msgid "Description"
+msgstr "توضیحات"
+
+#: inc/classes/elementor/gridpost.php:59 inc/classes/elementor/price_box.php:53
+msgid "Button Link"
+msgstr "لینک دکمه"
+
+#: inc/classes/elementor/gridpost.php:67 inc/classes/elementor/gridpost.php:69
+#: inc/classes/elementor/price_box.php:43
+#: inc/classes/elementor/searchform.php:53
+msgid "Button Text"
+msgstr "متن دکمه"
+
+#: inc/classes/elementor/gridpost.php:83
+msgid "Button Background Color"
+msgstr "رنگ پس زمینه دکمه"
+
+#: inc/classes/elementor/gridpost.php:91
+msgid "Button Text Color"
+msgstr "رنگ متن دکمه"
+
+#: inc/classes/elementor/gridpost.php:99
+msgid "Title Text Color"
+msgstr "رنگ متن عنوان"
+
+#: inc/classes/elementor/gridpost.php:170
+msgid "No posts found"
+msgstr "پستی پیدا نشد"
+
+#: inc/classes/elementor/header/header-menu.php:10
+msgid "Javid Header Menu"
+msgstr "منوی هدر جاوید"
+
+#: inc/classes/elementor/header/header-menu.php:41
+msgid "Menu"
+msgstr "فهرست"
+
+#: inc/classes/elementor/header/login-icon.php:10
+msgid "Javid Login Button"
+msgstr "دکمه ورود جاوید"
+
+#: inc/classes/elementor/header/search-icon.php:10
+msgid "Javid Search Button"
+msgstr "دکمه جستجوی جاوید"
+
+#: inc/classes/elementor/header/searchform.php:10
+msgid "Javid Header Search Form"
+msgstr "فرم جستجو هدر جاوید"
+
+#: inc/classes/elementor/list.php:15
+msgid "List"
+msgstr "فهرست"
+
+#: inc/classes/elementor/list.php:35
+msgid "List Content"
+msgstr "محتوای فهرست"
+
+#: inc/classes/elementor/list.php:47
+msgid "Text"
+msgstr "متن"
+
+#: inc/classes/elementor/list.php:49 inc/classes/elementor/list.php:50
+msgid "List Item"
+msgstr "آیتم فهرست"
+
+#: inc/classes/elementor/list.php:63 inc/classes/elementor/price_box.php:55
+msgid "https://your-link.com"
+msgstr ""
+
+#: inc/classes/elementor/list.php:75 inc/classes/elementor/price_box.php:100
+msgid "List Items"
+msgstr "نشانگر فهرست"
+
+#: inc/classes/elementor/list.php:80 inc/classes/elementor/price_box.php:105
+msgid "Item 1"
+msgstr "آیتم ۱"
+
+#: inc/classes/elementor/list.php:84
+msgid "Item 2"
+msgstr "آیتم ۲"
+
+#: inc/classes/elementor/list.php:88
+msgid "Item 3"
+msgstr "آیتم ۳"
+
+#: inc/classes/elementor/list.php:101
+msgid "List Marker"
+msgstr "نشانگر فهرست"
+
+#: inc/classes/elementor/list.php:109
+msgid "Marker Icon"
+msgstr "آیکون نشانگر"
+
+#: inc/classes/elementor/list.php:123
+msgid "List Style"
+msgstr "استایل فهرست"
+
+#: inc/classes/elementor/list.php:161
+msgid "Marker Style"
+msgstr "استایل نشانگر"
+
+#: inc/classes/elementor/list.php:180
+msgid "Spacing"
+msgstr "فاصله گذاری"
+
+#: inc/classes/elementor/list.php:211
+msgid "Size"
+msgstr "سایز"
+
+#: inc/classes/elementor/price_box.php:11
+msgid "Price Box"
+msgstr "جعبه قیمت"
+
+#: inc/classes/elementor/price_box.php:46
+#: inc/classes/elementor/searchform.php:56
+msgid "Enter the button text..."
+msgstr "متن دکمه را وارد کنید..."
+
+#: inc/classes/elementor/price_box.php:47
+msgid "Buy"
+msgstr "خرید"
+
+#: inc/classes/elementor/price_box.php:64
+msgid "Price"
+msgstr "قیمت"
+
+#: inc/classes/elementor/price_box.php:67
+msgid "Enter the Price..."
+msgstr "قیمت را وارد کنید..."
+
+#: inc/classes/elementor/price_box.php:68
+msgid "22000"
+msgstr "۲۲۰۰۰"
+
+#: inc/classes/elementor/price_box.php:75
+msgid "Currency"
+msgstr "ارز"
+
+#: inc/classes/elementor/price_box.php:78
+msgid "Enter the Currency..."
+msgstr "ارز را وارد کنید ..."
+
+#: inc/classes/elementor/price_box.php:79
+msgid "Rial"
+msgstr "ریال"
+
+#: inc/classes/elementor/price_box.php:87
+msgid "Item"
+msgstr "آیتم"
+
+#: inc/classes/elementor/price_box.php:89 inc/classes/elementor/price_box.php:90
+msgid "Price Item"
+msgstr "آیتم قیمت"
+
+#: inc/classes/elementor/price_box.php:122
+msgid "Background Color"
+msgstr "رنگ پس زمینه"
+
+#: inc/classes/elementor/price_box.php:133
+msgid "Primary Background Color"
+msgstr "رنگ پس زمینه اصلی"
+
+#: inc/classes/elementor/price_box.php:146
+#: inc/classes/elementor/searchform.php:71
+msgid "Title text color"
+msgstr "رنگ متن عنوان"
+
+#: inc/classes/elementor/price_box.php:157
+msgid "Price text color"
+msgstr "رنگ متن قیمت"
+
+#: inc/classes/elementor/price_box.php:168
+msgid "Currency text color"
+msgstr "رنگ متن ارز"
+
+#: inc/classes/elementor/price_box.php:179
+#: inc/classes/elementor/searchform.php:94
+msgid "Button text color"
+msgstr "رنگ متن دکمه"
+
+#: inc/classes/elementor/price_box.php:190
+msgid "Items text color"
+msgstr "رنگ متن آیتم ها"
+
+#: inc/classes/elementor/searchform.php:11
+msgid "Search Form"
+msgstr "فرم جستجو"
+
+#: inc/classes/elementor/searchform.php:43
+msgid "Input Placeholder"
+msgstr "متن پشتی ورودی را وارد کنید... (placeholder)"
+
+#: inc/classes/elementor/searchform.php:46
+msgid "Enter the placeholder..."
+msgstr "متن پشتی را وارد کنید... (placeholder)"
+
+#: inc/classes/elementor/searchform.php:47
+msgid "placeholder"
+msgstr "متن پشتی (placeholder)"
+
+#: inc/classes/elementor/searchform.php:57
+msgid "Search"
+msgstr "جستجو"
+
+#: inc/classes/elementor/searchform.php:82
+msgid "Input Background color"
+msgstr "رنگ پس زمینه ورودی"
+
+#: inc/classes/elementor/searchform.php:105
+msgid "Button background color"
+msgstr "رنگ پس زمینه دکمه"
+
+#: inc/classes/elementor/services-box-2.php:11
+msgid "Services Box 2"
+msgstr "جعبه خدمات ۲"
+
+#: inc/classes/elementor/services-box-2.php:46
+#: inc/classes/elementor/services-box-3.php:46
+#: inc/classes/elementor/services-box.php:52
+msgid "Enter the description..."
+msgstr "توضیحات را وارد کنید..."
+
+#: inc/classes/elementor/services-box-3.php:11
+msgid "Services Box 3"
+msgstr "جعبه خدمات ۳"
+
+#: inc/classes/elementor/services-box.php:17
+msgid "Services Box"
+msgstr "جعبه خدمات"
+
+#: inc/classes/elementor/services-box.php:78
+msgid "Title Color"
+msgstr "رنگ عنوان"
+
+#: inc/classes/elementor/services-box.php:89
+msgid "Description Color"
+msgstr "رنگ توضیحات"
+
+#: inc/classes/elementor/services-box.php:119
+msgid "Icon Background color"
+msgstr "رنگ پس زمینه آیکون"
+
+#: inc/classes/elementor/services-box.php:148
+msgid "Title Typography"
+msgstr "تایپوگرافی عنوان"
+
+#: inc/classes/elementor/services-box.php:156
+msgid "Description Typography"
+msgstr "تایپوگرافی توضیحات"
+
+#: inc/classes/elementor/sidebar.php:10
+msgid "Javid Sidebar"
+msgstr "سایدبار جاوید"
+
+#: inc/classes/elementor/sidebar.php:39
+msgid "Sidebar"
+msgstr "سایدبار"
+
+#: inc/helpers/template-tags.php:51
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "پست شده در %s"
+
+#: inc/helpers/template-tags.php:59
+#, php-format
+msgctxt "post author"
+msgid " by %s"
+msgstr " توسط %s"
+
+#: inc/helpers/template-tags.php:86
+msgid "Read more"
+msgstr "ادامه مطلب"
+
+#: searchform.php:19 template-parts/header/searchform.php:23
+msgctxt "label"
+msgid "Search for:"
+msgstr "جستجو برای:"
+
+#: searchform.php:23
+msgctxt "placeholder"
+msgid "Search"
+msgstr "جستجو"
+
+#: searchform.php:26
+msgctxt "submit button"
+msgid "Search"
+msgstr "جستجو"
+
+#: template-parts/components/blog/entry-content.php:21
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rAarr;</span>"
+msgstr "به خواندن %s <span class=\"meta-nav\">&rArr;</span> ادامه دهید"
+
+#: template-parts/components/blog/entry-content.php:33
+msgid "Pages:"
+msgstr "صفحات:"
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr "چیزی پیدا نشد"
+
+#: template-parts/content-none.php:25
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%s\"> Get started here</a>"
+msgstr ""
+"برای انتشار اولین پست خود آماده اید؟ <a href=\"%s\"> از اینجا شروع کنید</a>"
+
+#: template-parts/content-none.php:40
+msgid ""
+"Sorry but nothing matched your search item. Please try again with some "
+"different keywords"
+msgstr ""
+"متاسفم، اما هیچ چیزی با مورد جستجوی شما مطابقت نداشت. لطفاً با چند کلمه کلیدی "
+"مختلف دوباره امتحان کنید"
+
+#: template-parts/content-none.php:45
+msgid ""
+"It seems that we cannot find what you are looking for. Perhaps search can help"
+msgstr ""
+"به نظر می رسد ما نمی توانیم آنچه شما به دنبال آن هستید را پیدا کنیم. شاید "
+"جستجو بتواند کمک کند"
+
+#: template-parts/header/searchform.php:15
+msgctxt "placeholder"
+msgid "What are you looking for?"
+msgstr "به دنبال چه چیزی می گردید؟"
+
+#. Theme URI of the plugin/theme
+msgid "https://github.com/Armanj88/javidnew"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Multipurpose wordpress theme."
+msgstr "قالب وردپرس چند منظوره."
+
+#. Author of the plugin/theme
+msgid "Arman Jamshidi"
+msgstr "آرمان جمشیدی"
+
+#. Author URI of the plugin/theme
+msgid "https://github.com/Armanj88/"
+msgstr ""
+
+#~ msgid "social media widget 1"
+#~ msgstr "ابزارک شبکه‌های اجتماعی ۱"
+
+#~ msgid "Social medias"
+#~ msgstr "شبکه‌های اجتماعی:"
+
+#~ msgid "Aparat"
+#~ msgstr "آپارات"
+
+#~ msgid "Email"
+#~ msgstr "ایمیل"
+
+#~ msgid "Instagram"
+#~ msgstr "اینستاگرام"
+
+#~ msgid "Telegram"
+#~ msgstr "تلگرام"
+
+#~ msgid "Youtube"
+#~ msgstr "یوتیوب"
+
+#~ msgid "Twitter"
+#~ msgstr "توییتر"
+
+#~ msgid "Facebook"
+#~ msgstr "فیس‌بوک"
+
+#~ msgid "Linkedin"
+#~ msgstr "لینکدین"
+
+#~ msgid "Phone"
+#~ msgstr "موبایل"
+
+#~ msgid "Email "
+#~ msgstr "ایمیل"
+
+#~ msgid "Phone "
+#~ msgstr "موبایل"

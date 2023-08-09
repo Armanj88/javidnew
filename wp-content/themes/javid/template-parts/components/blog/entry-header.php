@@ -15,16 +15,27 @@ $heading_class = ! empty($hide_title) && 'yes' === $hide_title ? 'hide' : '';
 <header class="entry-header">
     <?php
     // Featured image
+    $thumbnail_dynamic_class = "";
+    if (get_theme_mod('thumbnail_position', 2) == 0) {
+        $thumbnail_dynamic_class = "fullwidth";
+    } elseif (get_theme_mod('thumbnail_position', 2) == 1) {
+        $thumbnail_dynamic_class = "position-right";
+    } elseif (get_theme_mod('thumbnail_position', 2) == 2) {
+        $thumbnail_dynamic_class = "position-left";
+    }
     if ($has_post_thumbnail) {
         ?>
-        <div class="entry-image mb-3">
+        <div class="entry-image mb-3 <?php echo $thumbnail_dynamic_class; ?>">
             <a href="<?php echo esc_url( get_permalink() ) ?>">
                 <?php
+                $thumbnail_size = "medium-large";
+                $thumbnail_max_width = "350px";
+                if (is_singular()) {$thumbnail_size = "medium"; $thumbnail_max_width = "300px";}
                 the_post_custom_thumbnail(
                     $the_post_id,
-                    'featured-thumbnail',
+                    $thumbnail_size,
                     [
-                        'sizes' => '(max-width: 350px) 350px, 233px',
+                        'sizes' => '(max-width: ' . $thumbnail_max_width .') 300px 170px',
                         'class' => 'attachment-featured-large size-featured-image'
                     ]
                 );
@@ -33,7 +44,6 @@ $heading_class = ! empty($hide_title) && 'yes' === $hide_title ? 'hide' : '';
         </div>
         <?php
     }
-
     // Title
     if (is_single() || is_page()) {
         printf(
@@ -42,8 +52,10 @@ $heading_class = ! empty($hide_title) && 'yes' === $hide_title ? 'hide' : '';
             wp_kses_post( get_the_title() )
         );
     } else {
+        $dynamic_classes = "";
+        if (get_theme_mod('archives_center_post_title', false)) $dynamic_classes = "text-center";
         printf(
-            '<h2 class="entry-title mb-3"><a href="%1$s" class="text-dark">%2$s</a></h2>',
+            '<h2 class="entry-title mb-3 ' . $dynamic_classes . '"><a href="%1$s" class="text-dark">%2$s</a></h2>',
             esc_url( get_the_permalink() ),
             wp_kses_post( get_the_title() )
         );

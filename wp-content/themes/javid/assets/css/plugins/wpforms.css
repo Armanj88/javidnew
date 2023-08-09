@@ -1,0 +1,9 @@
+.wpforms-submit {
+    display: block;
+}
+
+.wpforms-field-container label,
+.wpforms-field-container div,
+.wpforms-container p {
+    text-align: var(--dir) !important;
+}

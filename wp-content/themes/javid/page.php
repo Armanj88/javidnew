@@ -12,8 +12,8 @@
 <div id="primary">
     <main id="main"  class="site-main mt-5" role="main">
         <div class="container">
-            <div class="<?php if (is_active_sidebar('posts-sidebar')): echo 'row'; endif; ?>">
-                <div <?php if (is_active_sidebar('posts-sidebar')): ?> class="col-lg-8 col-md-8 col-sm-12" <?php endif; ?>>
+            <div class="<?php if (is_active_sidebar('posts-sidebar') && get_theme_mod('enable_pages_sidebar', false)): echo 'row'; endif; ?>">
+                <div <?php if (is_active_sidebar('posts-sidebar') && get_theme_mod('enable_pages_sidebar', false)): ?> class="col-lg-8 col-md-8 col-sm-12" <?php endif; ?>>
                     <?php
                     if (have_posts()) {
                         ?>
@@ -42,7 +42,7 @@
                     }
                     ?>
                 </div>
-                <?php if (is_active_sidebar('posts-sidebar')): ?>
+                <?php if (is_active_sidebar('posts-sidebar') && get_theme_mod('enable_pages_sidebar', false)): ?>
                     <div class="col-lg-4 col-md-4 col-sm-12">
                         <?php get_sidebar(); ?>
                     </div>

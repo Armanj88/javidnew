@@ -5,7 +5,7 @@
  * @package Javid
  */
 
-$no_of_columns = 3;
+$no_of_columns = get_theme_mod('archives_columns_number', 3);
 
 ?>
 
@@ -17,23 +17,12 @@ $no_of_columns = 3;
                 <?php
                 if (have_posts()) {
                     ?>
-                    <?php
-                    if (is_home() && !is_front_page()) {
-                        ?>
-                        <header class="mb-5">
-                            <h1 class="page-title">
-                                <?php single_post_title(); ?>
-                            </h1>
-                        </header>
-                        <?php
-                    }
-                    ?>
                     <div class="grid-<?php echo $no_of_columns; ?>">
                         <?php
                         // start the loop
                         while (have_posts()) : the_post();
                             ?>
-                            <div class="box-shadow border-box padding-box archive-article">
+                            <div class="box-shadow border-box padding-box archive-article mb-5">
                                 <?php
                                 get_template_part('template-parts/content');
                                 ?>
@@ -48,9 +37,9 @@ $no_of_columns = 3;
                     get_template_part('template-parts/content-none');
                 }
                 ?>
+                <?php javid_pagination(); ?>
             </div>
 
-            <?php javid_pagination(); ?>
         </main>
     </div>
 

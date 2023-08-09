@@ -1,0 +1,114 @@
+.responsive-menu {
+    background: #333;
+    width: 70%;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    color: #fff;
+    z-index: 9999999;
+    padding: 1.3rem;
+    text-align: var(--dir);
+    opacity: 0.99;
+    left: -100%;
+    transition-duration: 1s;
+    overflow: auto;
+}
+
+.responsive-menu.opened {
+    left: 0;
+}
+
+.responsive-menu li a {
+    color: #fff;
+    display: block;
+    line-height: 1.5;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 15px;
+}
+
+.responsive-menu > div > ul > li.menu-item-has-children a {
+    pointer-events: none;
+}
+
+.responsive-menu > div > ul > li > ul {
+    padding: 25px;
+    display: none;
+}
+
+@media screen and (max-width:1400px) {
+    /*header*/
+
+}
+
+@media screen and (max-width:992px) {
+    .grid-4 {
+        display: grid;
+        width: 100%;
+        grid-column-gap: 50px;
+        -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+    .widget {
+        margin-bottom: 25px;
+    }
+    .widget .widget-title {
+        text-align: center;
+    }
+    .header-nav .navbar {
+        display: none;
+    }
+    #responsive-menu-icon {
+        display: inline-block !important;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .grid-4,
+    .grid-3{
+        display: block;
+    }
+    .grid-post article {
+        margin-bottom: 25px;
+    }
+    .header-nav .container {
+        display: block;
+    }
+    .header-nav .header-buttons,
+    .header-nav .logo {
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin: inherit;
+        margin-bottom: 10px;
+    }
+    .footer-copyright {
+        display: block !important;
+    }
+    .footer-copyright p {
+        text-align: center !important;
+        margin-bottom: 10px;
+    }
+    .next-prev-posts {
+        display: block !important;
+    }
+    .next-prev-posts > div {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .elementor-widget-searchform .elementor-widget-searchform-form {
+        display: block !important;
+    }
+    .elementor-widget-searchform .elementor-widget-searchform-form input,
+    .elementor-widget-searchform .elementor-widget-searchform-form button {
+        width: 100%;
+        text-align: center;
+    }
+    .elementor-widget-searchform .elementor-widget-searchform-form input {
+        margin-bottom: 10px;
+        padding: 20px 0;
+    }
+}
